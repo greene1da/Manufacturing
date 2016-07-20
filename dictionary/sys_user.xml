@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="iterativeDelete=true,ref_ac_columns_search=true,ref_auto_completer=AJAXTableCompleter,ref_ac_columns=email,ref_ac_order_by=name,display_image=photo,text_index_translations" audit="true" create_roles="user_admin" defaultsort="-1" dynamic_creation_script="dynamicUserCreation(current, value);" label="User" max_length="40" name="sys_user" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="My new Field" max_length="40" name="x_snc_mfg_case_my_new_field" type="string"/>
+    </element>
+</database>
