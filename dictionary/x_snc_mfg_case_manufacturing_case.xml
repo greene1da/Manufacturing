@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Manufacturing Case" max_length="40" name="x_snc_mfg_case_manufacturing_case" type="collection"/>
+    <element extends="task" label="Manufacturing Case" max_length="40" name="x_snc_mfg_case_manufacturing_case" type="collection">
+        <element label="test" max_length="40" name="test" type="string"/>
+        <element label="test2" max_length="100" name="test2" type="string"/>
+    </element>
 </database>
